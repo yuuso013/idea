@@ -37,17 +37,14 @@ export default function App() {
   }
   return (
     <View style={styles.mainContainer}>
-
       <View style={styles.container}>
       <View style={styles.containerSVG}>
           <SvgTop/>
-
-        <Text style={styles.titulo}>Notas IDEA</Text>
+            <Text style={styles.titulo}>Notas IDEA</Text>
           <Text>Log In / Ingrese usuario</Text>
           <TextInput
             placeholder="mail@email.com" style={styles.textInput}
           />
-
           <TextInput
             placeholder="password" style={styles.textInput}
           />
@@ -58,7 +55,6 @@ export default function App() {
           <View style={styles.containerSVG}>
             <SvgTop/>
           </View>
-
         </View>
       </View>
     </View>
